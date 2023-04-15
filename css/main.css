@@ -207,7 +207,7 @@ td {
     border: 2px #6f6f6f solid;
 }
 
-li img {
+.Adms_list img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -279,6 +279,42 @@ li h2 {
 .index p {
     color: #c9c9c9;
     margin: 10px;
+}
+
+.dl_ul {
+    margin-top: 20px;
+}
+
+.dl_ul li {
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px #6f6f6f solid;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.dl_block {
+    background-image: -webkit-linear-gradient(to right,#50417d 0%,#649d8d 100%);
+    background-image: -moz-linear-gradient(to right,#50417d 0%,#649d8d 100%);
+    background-image: linear-gradient(to right,#50417d 0%,#649d8d 100%);
+    background-image: -o-linear-gradient(to right,#50417d 0%,#649d8d 100%);
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+}
+
+.dl_img {
+    width: 30%;
+    border-radius: 5px;
+    border: 2px #6f6f6f solid;
 }
 
 @media(max-width: 767px) {
@@ -391,5 +427,13 @@ li h2 {
 
     footer {
         padding-left: 20px;
+    }
+
+    .dl_ul li {
+        display: block;
+    }
+
+    .dl_block {
+        width: 100%;
     }
 }
