@@ -260,6 +260,10 @@ li h2 {
     margin-top: 20px;
 }
 
+.last_point {
+    color: #131313;
+}
+
 @media(max-width: 767px) {
     .hamburger {
         display: block;
@@ -366,5 +370,9 @@ li h2 {
     .download_blocks {
         display: flex;
         margin: 20px;
+    }
+
+    footer {
+        padding-left: 20px;
     }
 }
