@@ -264,6 +264,23 @@ li h2 {
     color: #131313;
 }
 
+.text_link {
+    color: #c9c9c9;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.text_link:hover {
+    color: #fff;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.index p {
+    color: #c9c9c9;
+    margin: 10px;
+}
+
 @media(max-width: 767px) {
     .hamburger {
         display: block;
