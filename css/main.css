@@ -317,6 +317,11 @@ li h2 {
     margin-top: 100px;
 }
 
+.last_point {
+    color:rgb(46, 46, 46);
+    opacity: 0;
+}
+
 @media(max-width: 767px) {
     .hamburger {
         display: block;
