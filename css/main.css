@@ -385,7 +385,7 @@ li h2 {
 
     .header_list li {
         margin: 0 0 10px 0;
-        padding-left: 50%;
+        padding-left: 45%;
     }
 
     .hamburger.active:before {
