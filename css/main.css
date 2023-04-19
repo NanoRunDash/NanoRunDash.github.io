@@ -260,10 +260,6 @@ li h2 {
     margin-top: 20px;
 }
 
-.last_point {
-    color: #131313;
-}
-
 .text_link {
     color: #c9c9c9;
     text-decoration: none;
@@ -315,6 +311,10 @@ li h2 {
     width: 30%;
     border-radius: 5px;
     border: 2px #6f6f6f solid;
+}
+
+.dl_margin {
+    margin-top: 100px;
 }
 
 @media(max-width: 767px) {
